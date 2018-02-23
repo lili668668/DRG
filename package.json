@@ -19,5 +19,8 @@
   "devDependencies": {
     "eslint": "^4.18.1",
     "mocha": "^5.0.1"
+  },
+  "dependencies": {
+    "inquirer": "^5.1.0"
   }
 }
