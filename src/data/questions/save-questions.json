@@ -1,0 +1,14 @@
+{
+  "save_markdown": {
+    "type": "confirm",
+    "name": "save_markdown",
+    "message": "你要儲存成 markdown 嗎？",
+    "default": true
+  },
+  "save_path": {
+    "type": "input",
+    "name": "save_path",
+    "message": "儲存在？"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "send_mail": {
+    "type": "confirm",
+    "name": "send_mail",
+    "message": "你要發信嗎？",
+    "default": true
+  },
+  "to_adddress": {
+    "type": "input",
+    "name": "to_adddress",
+    "message": "發給？"
+  }
+}
+
