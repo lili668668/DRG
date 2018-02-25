@@ -3,8 +3,7 @@ const showdown = require('showdown')
 const markdownTemplate = require('./markdownTemplate.js')
 const config = require('../data/config.json')
 
-
-module.exports = (report) => {
+module.exports = (address, report) => {
   const converter = new showdown.Converter()
   const transporter = nodemailer.createTransport(config.auth_config)
   const year = (new Date()).getFullYear()
@@ -12,6 +11,6 @@ module.exports = (report) => {
   const date = ((new Date()).getDate()).toFixed(0).padStart(2, '0')
   const subject = `Daily report from Lily, ${year}${month}${date}`
   const html = converter.makeHtml(markdownTemplate.getMarkdown(report))
-  let mail_config = Object.assign({}, config.mail_config, { subject, html })
+  let mail_config = Object.assign({}, config.mail_config, { to: address, subject, html })
   transporter.sendMail(mail_config)
 }
