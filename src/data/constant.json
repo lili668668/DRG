@@ -1,5 +1,6 @@
 {
   "root_path": "/home/ballfish/DRG/",
   "save_path": "save/",
-  "save_file": "config.json"
+  "save_file": "config.json",
+  "markdown_root": "/home/ballfish/文件/Daily Report/"
 }
