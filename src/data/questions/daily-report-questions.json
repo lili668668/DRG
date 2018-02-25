@@ -1,0 +1,38 @@
+{
+  "is_finish": {
+    "type": "confirm",
+    "name": "isFinish",
+    "message": "結束了嗎？",
+    "default": false
+  },
+  "done": {
+    "type": "input",
+    "name": "done",
+    "message": "今天做完了什麼東西？"
+  },
+  "ongoing": {
+    "type": "input",
+    "name": "ongoing",
+    "message": "什麼東西做到一半？"
+  },
+  "todo_tomorrow": {
+    "type": "input",
+    "name": "todo_tomorrow",
+    "message": "明天預計完成什麼？"
+  },
+  "todo_this_week": {
+    "type": "input",
+    "name": "todo_this_week",
+    "message": "這週預計完成什麼？"
+  },
+  "todo_next_week": {
+    "type": "input",
+    "name": "todo_next_week",
+    "message": "下周預計完成什麼？"
+  },
+  "todo_month": {
+    "type": "input",
+    "name": "todo_month",
+    "message": "這個月會完成什麼？"
+  }
+}

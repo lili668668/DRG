@@ -1,0 +1,14 @@
+{
+  "is_config": {
+    "type": "confirm",
+    "name": "is_config",
+    "message": "你想要儲存今天的狀態提供給明天的自己嗎？",
+    "default": true
+  },
+  "use_old_config": {
+    "type": "confirm",
+    "name": "use_old_config",
+    "message": "你想要拿上次的狀態出來修改嗎？",
+    "default": true
+  }
+}
