@@ -1,0 +1,7 @@
+Daily Report Generater
+
+Description: Help you to generate wavenet daily report and send mail
+
+Usage:
+  drg -h (--help): open help page
+  drg -i (--interactive): generate daily report with interactive mode

@@ -1,0 +1,4 @@
+arguments is error, try to use follow
+
+drg -h: open help page
+drg -i: generate daily report with interactive mode

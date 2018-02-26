@@ -1,0 +1,4 @@
+Daily Report Generater
+
+drg -h: open help page
+drg -i: generate daily report with interactive mode
