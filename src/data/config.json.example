@@ -1,0 +1,15 @@
+{
+  "auth_config": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "gmail-account",
+      "pass": "gmail-password"
+    }
+  },
+  "mail_config": {
+    "from": "from-email",
+    "to": "to-email"
+  }
+}
